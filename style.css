@@ -13,6 +13,7 @@ li {
 
 a {
     text-decoration: none;
+    position: relative;
 }
 
 .nav__container {
@@ -51,6 +52,10 @@ a {
     color: #243e63;
 }
 
+.nav__link:hover {
+    color: #6415ff;
+}
+
 .nav__link--margin {
     margin-left:48px;
 }
@@ -64,9 +69,18 @@ a {
 
 .nav__link--primary:hover {
     background-color: #4108b4;
+    color: #fff;
 }
 
 .link__hover-effect:after {
     content: "";
+    position: absolute;
+    background-color: #6415ff;
+    height: 2px;
+    bottom: -3px;
+}
 
+.link__hover-effect:hover:after {
+    width: 100%;
+    left: 0;
 }
