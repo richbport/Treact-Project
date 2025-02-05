@@ -8,5 +8,27 @@
 }
 
 li {
-    
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav__container {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.nav__links {
+    display: flex;
+    gap: 8px;
 }
