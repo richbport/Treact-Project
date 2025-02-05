@@ -116,14 +116,60 @@ a {
 
 form {
     display: flex;
+    align-items: center;
+    position: relative;
 }
 
 input {
-    position: relative;
     width: 100%;
     max-width: 420px;
     border-radius: 99px;
-    padding: 20px;
+    padding: 24px 192px 24px 32px;
     border: 2px solid lightgray;
 }
 
+input::placeholder {
+    color: lightgray;
+}
+
+input:hover {
+    border-color: gray;
+}
+
+input:focus {
+    border: 2px solid #6415ff;
+    outline: transparent solid 2px;
+}
+
+.btn {
+    background-color: #6415ff;
+    color: #fff;
+    border-radius: 99px;
+    padding: 14px 28px;
+    font-weight: 700;
+}
+
+.header__btn {
+    position: absolute;
+    right: 180px;
+}
+
+.header__description--para-2 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #a0aec0;
+    margin: 80px 0 16px 0;
+}
+
+.header__description--img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.header__img--wrapper {
+    width: 45%;
+}
+
+.header__img {
+    width: 100%;
+}
