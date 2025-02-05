@@ -23,12 +23,24 @@ a {
     padding: 0 24px;
 }
 
+.logo__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .logo {
     width: 40px;
     height: 40px;
 }
 
+.logo__text {
+    font-size: 24px;
+    font-weight: 900;
+    color: #243e63;
+}
+
 .nav__links {
     display: flex;
-    gap: 8px;
+    gap: 32px;
 }
