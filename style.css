@@ -44,3 +44,17 @@ a {
     display: flex;
     gap: 32px;
 }
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #243e63;
+}
+
+.nav__link--margin {
+    margin-left:48px;
+}
+
+.nav__link--primary {
+    
+}
