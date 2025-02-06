@@ -101,11 +101,11 @@ a {
 }
 
 .header__description {
-  width: 45%;
+  width: 43%;
 }
 
 .header__description--title {
-  font-size: 36px;
+  font-size: 48px;
 }
 
 .purple {
@@ -117,12 +117,13 @@ a {
     color: #243e63;
     margin: 32px 0;
     line-height: 24px;
+    max-width: 550px;
 }
 
 form {
     display: flex;
     align-items: center;
-    position: relative;
+    
 }
 
 input {
@@ -156,7 +157,7 @@ input:focus {
 
 .header__btn {
     position: absolute;
-    right: 180px;
+    
 }
 
 .header__description--para-2 {
@@ -169,10 +170,11 @@ input:focus {
 .header__description--img {
     width: 100%;
     max-width: 500px;
+    opacity: 60%;
 }
 
 .header__img--wrapper {
-    width: 57%;
+    width: 52%;
 }
 
 .header__img {
