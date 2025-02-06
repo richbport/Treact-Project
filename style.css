@@ -136,7 +136,7 @@ input {
 }
 
 input::placeholder {
-    color: lightgray;
+    color: rgb(177, 170, 170);
 }
 
 input:hover {
@@ -154,6 +154,12 @@ input:focus {
     border-radius: 99px;
     padding: 14px 28px;
     font-weight: 700;
+    border-color: transparent;
+}
+
+.btn:hover {
+    background-color: #4108b4;
+    cursor: pointer;
 }
 
 .header__button--wrapper {
