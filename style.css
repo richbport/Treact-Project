@@ -127,6 +127,7 @@ form {
 }
 
 input {
+    position: relative;
     width: 100%;
     max-width: 420px;
     border-radius: 99px;
@@ -155,9 +156,15 @@ input:focus {
     font-weight: 700;
 }
 
+.header__button--wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .header__btn {
     position: absolute;
-    
+    margin-right: 8px;
 }
 
 .header__description--para-2 {
