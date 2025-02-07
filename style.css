@@ -17,13 +17,11 @@ a {
 }
 
 #landing {
-    height: calc(100vh - 120px);
+  height: calc(100vh - 120px);
 }
 
 .nav__container {
-  /* width: 100%;
-    max-width: 1200px;
-    margin: 0 auto; */
+  
   height: 120px;
   display: flex;
   align-items: center;
@@ -109,87 +107,86 @@ a {
 }
 
 .purple {
-    color: #6415ff;
+  color: #6415ff;
 }
 
 .header__description--para {
-    font-size: 18px;
-    color: #243e63;
-    margin: 32px 0;
-    line-height: 24px;
-    max-width: 550px;
+  font-size: 18px;
+  color: #243e63;
+  margin: 32px 0;
+  line-height: 24px;
+  max-width: 550px;
 }
 
 form {
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;
 }
 
 input {
-    position: relative;
-    width: 100%;
-    max-width: 420px;
-    border-radius: 99px;
-    padding: 24px 192px 24px 32px;
-    border: 2px solid lightgray;
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 99px;
+  padding: 24px 192px 24px 32px;
+  border: 2px solid lightgray;
 }
 
 input::placeholder {
-    color: rgb(177, 170, 170);
+  color: rgb(177, 170, 170);
 }
 
 input:hover {
-    border-color: gray;
+  border-color: gray;
 }
 
 input:focus {
-    border: 2px solid #6415ff;
-    outline: transparent solid 2px;
+  border: 2px solid #6415ff;
+  outline: transparent solid 2px;
 }
 
 .btn {
-    background-color: #6415ff;
-    color: #fff;
-    border-radius: 99px;
-    padding: 14px 28px;
-    font-weight: 700;
-    border-color: transparent;
+  background-color: #6415ff;
+  color: #fff;
+  border-radius: 99px;
+  padding: 14px 28px;
+  font-weight: 700;
+  border-color: transparent;
 }
 
 .btn:hover {
-    background-color: #4108b4;
-    cursor: pointer;
+  background-color: #4108b4;
+  cursor: pointer;
 }
 
 .header__button--wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .header__btn {
-    position: absolute;
-    margin-right: 8px;
+  position: absolute;
+  margin-right: 8px;
 }
 
 .header__description--para-2 {
-    font-size: 12px;
-    font-weight: 700;
-    color: #a0aec0;
-    margin: 80px 0 16px 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #a0aec0;
+  margin: 80px 0 16px 0;
 }
 
 .header__description--img {
-    width: 100%;
-    max-width: 500px;
-    opacity: 60%;
+  width: 100%;
+  max-width: 500px;
+  opacity: 60%;
 }
 
 .header__img--wrapper {
-    width: 52%;
+  width: 52%;
 }
 
 .header__img {
-    width: 100%;
+  width: 100%;
 }
