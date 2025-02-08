@@ -26,9 +26,9 @@ a {
     margin: 0 auto;
 }
 
-/* #landing {
-  height: calc(100vh - 120px);
-} */
+#landing {
+  height: calc(75vh - 120px);
+}
 
 .nav__container {
   
@@ -226,6 +226,7 @@ color: #6415ff
     color: #243e63;
     margin: 36px 0;
     font-weight: 900;
+    letter-spacing: 2px;
 }
 
 .section__para {
