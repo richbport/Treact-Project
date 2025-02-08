@@ -20,9 +20,15 @@ a {
     padding: 80px 0;
 }
 
-#landing {
-  height: calc(100vh - 120px);
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
+/* #landing {
+  height: calc(100vh - 120px);
+} */
 
 .nav__container {
   
@@ -210,5 +216,22 @@ FEATURES
 }
 
 .section__title {
-
+font-size: 16px;
 }
+
+.section__heading {
+    font-size: 48px;
+    color: #243e63;
+    margin: 36px 0;
+    font-weight: 900;
+}
+
+.section__para {
+    font-size: 20px;
+    color: #7c8ba1;
+    width: 100%;
+    max-width: 650px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
