@@ -217,6 +217,8 @@ FEATURES
 
 .section__title {
 font-size: 16px;
+letter-spacing: 2px;
+color: #6415ff
 }
 
 .section__heading {
@@ -254,4 +256,23 @@ font-size: 16px;
     padding: 20px;
     border-radius: 99px;
     max-height: 65px;
+}
+
+.service__description {
+    padding-left: 12px;
+}
+
+.service__description--title {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.service__description--para {
+    font-size: 18px;
+    color: #7c8ba1;
+    line-height: 2;
+    width: 100%;
+    max-width: 240px;
+    font-weight: 500;
 }
