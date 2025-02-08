@@ -235,3 +235,23 @@ font-size: 16px;
     font-weight: 500;
 }
 
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    display: flex;
+    width: 30%;
+    margin: 0 12px;
+    padding: 24px 0;
+}
+
+.service__img--wrapper {
+    display: flex;
+    border: 1px solid #7c8ba1;
+    padding: 20px;
+    border-radius: 99px;
+    max-height: 65px;
+}
