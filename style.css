@@ -277,3 +277,29 @@ color: #6415ff
     max-width: 240px;
     font-weight: 500;
 }
+
+/* QUALITY WORK */
+
+.quality__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.quality__description {
+    width: 40%;
+}
+
+.quality__btn {
+    margin-top: 32px;
+    padding: 12px 32px;
+}
+
+.quality__img--wrapper {
+    width: 55%;
+}
+
+.quality__img {
+    width: 100%;
+}
