@@ -310,3 +310,49 @@ color: #6415ff
 
 /* STEPS */
 
+.steps__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.steps__img--wrapper {
+    width: 45%;
+}
+
+.steps__img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.steps__description {
+    width: 45%;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.step {
+    display: flex;
+}
+
+.step__num {
+    font-size: 36px;
+    color: #cbd5e0;
+    font-weight: 700;
+}
+
+.step__text--wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.step__text--title {
+    font-size: 24px;
+    color: #243e63;
+    font-weight: 600;
+}
