@@ -282,9 +282,13 @@ color: #6415ff
 
 .quality__wrapper {
     display: flex;
-    justify-content: space-between;
+    gap: 48px;
     align-items: center;
     padding: 0 24px;
+}
+
+.quality__heading {
+    margin: 12px 0;
 }
 
 .quality__description {
@@ -297,9 +301,12 @@ color: #6415ff
 }
 
 .quality__img--wrapper {
-    width: 55%;
+    width: 70%;
 }
 
 .quality__img {
     width: 100%;
 }
+
+/* STEPS */
+
