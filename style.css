@@ -279,7 +279,11 @@ font-weight: 700;
     font-weight: 500;
 }
 
-/* QUALITY WORK */
+/* 
+
+QUALITY WORK 
+
+*/
 
 .quality__wrapper {
     display: flex;
@@ -369,3 +373,20 @@ font-weight: 700;
     width: 100%;
     max-width: 400px;
 }
+
+/* 
+
+VALUES
+
+*/
+
+.values__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 
+
+PRICING  
+
+*/
