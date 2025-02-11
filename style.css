@@ -419,6 +419,10 @@ VALUES
     padding: 12px;
 }
 
+.value__title {
+    color: #243e63;
+}
+
 .values__img--wrapper {
   width: 48%;
 }
