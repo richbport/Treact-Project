@@ -411,26 +411,26 @@ VALUES
 }
 
 .value__img--wrapper1 {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 .value__img--wrapper2 {
-    background-color: pink;
-    padding: 12px;
+  background-color: pink;
+  padding: 12px;
 }
 
 .value__title {
-    color: #243e63;
+  color: #243e63;
 }
 
 .value__para {
-    margin-top: 24px;
-    line-height: 1.5;
-    color: #718096;
+  margin-top: 24px;
+  line-height: 1.5;
+  color: #718096;
 }
 
 .value__btn {
-    margin-top: 48px;
+  margin-top: 48px;
 }
 
 .values__img--wrapper {
@@ -446,3 +446,31 @@ VALUES
 PRICING  
 
 */
+
+#pricing {
+  padding: 0 24px;
+}
+
+.pricing__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan {
+  position: relative;
+  width: 31%;
+  max-width: 384px;
+  margin-top: 64px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border-radius: 10px;
+}
