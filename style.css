@@ -423,13 +423,24 @@ VALUES
     color: #243e63;
 }
 
+.value__para {
+    margin-top: 24px;
+    line-height: 1.5;
+    color: #718096;
+}
+
+.value__btn {
+    margin-top: 48px;
+}
+
 .values__img--wrapper {
-  width: 48%;
+  width: 50%;
 }
 
 .values__img {
   width: 100%;
 }
+
 /* 
 
 PRICING  
