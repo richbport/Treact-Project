@@ -474,3 +474,22 @@ PRICING
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   border-radius: 10px;
 }
+
+.plan__blue {
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan__border--top {
+    position: absolute;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.plan__border--top-red {
+    
+}
