@@ -609,6 +609,56 @@ TESTIMONIALS
 
 */
 
+#testimonials .row {
+  display: flex;
+}
+
+.testimonials__img,
+.testimonials__description {
+  width: 50%;
+}
+
+.testimonials__description {
+  padding-left: 64px;
+}
+
+.testimonial {
+  margin-top: 40px;
+}
+
+.testimonial__rating i {
+  color: rgb(246, 209, 4)
+}
+
+.testimonial__title {
+  margin-top: 16px;
+}
+
+.testimonial__title,
+.testimonial__name {
+  color: #243e63;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.testimonial__para {
+  margin: 16px 0 40px 0;
+  color: #4a5568;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.testimonial__lower {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial__profile {
+  margin-left: 24px;
+}
+
 .testimonial__button {
   width: 32px;
   height: 32px;
