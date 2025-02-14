@@ -611,6 +611,7 @@ TESTIMONIALS
 
 #testimonials .row {
   display: flex;
+  padding: 0 32px;
 }
 
 .testimonials__img,
@@ -684,6 +685,7 @@ TESTIMONIALS
 .testimonial__button svg {
   width: 16px;
   height: 16px;
+  color: #6415ff;
 }
 
 .testimonial__button {
@@ -698,5 +700,11 @@ TESTIMONIALS
 }
 
 .testimonial__button:hover {
-  
+  background-color: #E2E8F0;
+  cursor: pointer;
+}
+
+.divider {
+  border: 1px solid #E2E8F0;
+  height: 24px;
 }
