@@ -627,7 +627,7 @@ TESTIMONIALS
 }
 
 .testimonial__rating i {
-  color: rgb(246, 209, 4)
+  color: rgb(246, 209, 4);
 }
 
 .testimonial__title {
@@ -656,7 +656,29 @@ TESTIMONIALS
 }
 
 .testimonial__profile {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.testimonial__details {
   margin-left: 24px;
+}
+
+.testimonial__role {
+  color: #7c8ba1;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.testimonial__buttons {
+  display: flex;
+  align-items: center;
 }
 
 .testimonial__button {
