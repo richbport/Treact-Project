@@ -715,4 +715,24 @@ CTA
 
 */
 
+#cta {
+  background-color: rgb(100, 21, 255);
+  border-radius: 8px;
+  margin: 96px;
+}
 
+.cta__row {
+  width: 100%;
+  max-width: 1000px;
+  margin: 24px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+
+.cta__title {
+  color: #fff;
+  width: 50%;
+  font-size: 28px;
+}
