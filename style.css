@@ -798,4 +798,32 @@ footer {
   margin-top: 24px;
 }
 
-.footer__link--anchor {}
+.footer__link--anchor {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer__link--anchor:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: #fff;
+  text-decoration-thickness: 2px;
+}
+
+.break__line {
+  width: 100%;
+  border-top: 2px solid rgb(116, 44, 255);
+  margin: 48px 0;
+}
+
+.footer__copyright--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__logo--text, 
+.footer__logo--text:hover {
+  color: #fff;
+}
