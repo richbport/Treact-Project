@@ -827,3 +827,28 @@ footer {
 .footer__logo--text:hover {
   color: #fff;
 }
+
+.footer__copyright {
+  color: #cbd5e0;
+  font-weight: 500;
+}
+
+.footer__social--links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer__social--link {
+  font-size: 18px;
+  padding: 10px 12px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.footer__social--link:hover {
+  background-color: rgb(203, 213,224);
+}
+
+.youtube {
+  padding: 10px 10px;
+}
