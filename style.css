@@ -705,8 +705,9 @@ TESTIMONIALS
 }
 
 .divider {
-  border: 1px solid #E2E8F0;
+  width: 1px;
   height: 24px;
+  background: rgb(229, 231, 235);
 }
 
 /* 
@@ -754,4 +755,9 @@ CTA
 .cta__btn--purple {
   border: 1px solid #fff;
   padding: 16px 32px;
+}
+
+.cta__btn--purple:hover {
+  background-color: rgba(247, 250, 252);
+  color: rgba(100, 21, 255);
 }
