@@ -849,6 +849,11 @@ footer {
   background-color: rgb(203, 213,224);
 }
 
+.facebook {
+  color: blue;
+}
+
 .youtube {
   padding: 10px 10px;
+  color: red;
 }
