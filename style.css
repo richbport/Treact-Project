@@ -30,7 +30,7 @@ a {
   height: calc(75vh - 120px);
 }
 
-.nav__container {
+.nav__content {
   height: 120px;
   display: flex;
   align-items: center;
