@@ -36,6 +36,23 @@ a {
   display: none;
 }
 
+.menu__backdrop {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 10px;
+  top: 2%;
+  left: 2%;
+  right: 2%;
+  bottom: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  /* visibility: hidden; */
+  
+}
+
 /* NAV BAR */
 
 #landing {
