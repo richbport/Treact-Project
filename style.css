@@ -29,7 +29,11 @@ a {
 /* BURGER MENU */
 
 .btn__menu {
-  
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #243e63;
+  display: none;
 }
 
 /* NAV BAR */
