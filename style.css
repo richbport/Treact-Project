@@ -49,8 +49,8 @@ a {
   align-items: center;
   justify-content: center;
   z-index: 2;
-  /* opacity: 0;
-  visibility: hidden; */
+  opacity: 0;
+  visibility: hidden;
 }
 
 .menu--open .menu__backdrop {
@@ -67,12 +67,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 32px;
 }
 
 .menu__link {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
   color: #1a202c;
 }
 
@@ -80,6 +80,27 @@ a {
   color: #6415ff;
   cursor: pointer;
   text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: #6415ff;
+  text-decoration-thickness: 2px;
+}
+
+.menu__list--primary {
+  margin-top: 16px;
+}
+
+.btn__menu--close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color: #243e63;
+  padding: 16px;
+}
+
+.btn__menu--close:hover,
+.btn__menu:hover {
+  color: #6415ff;
+  cursor: pointer;
 }
 
 /* NAV BAR */
@@ -151,6 +172,7 @@ a {
 .nav__link--primary:hover {
   background-color: #4108b4;
   color: #fff;
+  text-decoration: none;
 }
 
 .link__hover-effect:after {
@@ -889,7 +911,7 @@ footer {
   justify-content: space-between;
 }
 
-.footer__logo--text, 
+.footer__logo--text,
 .footer__logo--text:hover {
   color: #fff;
 }
@@ -912,7 +934,7 @@ footer {
 }
 
 .footer__social--link:hover {
-  background-color: rgb(203, 213,224);
+  background-color: rgb(203, 213, 224);
 }
 
 .facebook {
@@ -923,3 +945,10 @@ footer {
   padding: 10px 10px;
   color: red;
 }
+
+/* 
+
+RESPONSIVENESS
+
+*/
+
