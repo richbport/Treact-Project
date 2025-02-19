@@ -106,7 +106,7 @@ a {
 /* NAV BAR */
 
 #landing {
-  min-height: calc(100vh - 120px);
+  min-height: calc(60vh - 120px);
   padding-bottom: 64px;
 }
 
@@ -124,6 +124,7 @@ a {
   justify-content: space-between;
   width: 100%;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo__wrapper {
@@ -191,7 +192,10 @@ a {
 .header__container {
   padding: 0 24px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -952,3 +956,6 @@ RESPONSIVENESS
 
 */
 
+@media (max-width: 1280px) {
+
+}
