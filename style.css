@@ -210,14 +210,11 @@ a {
   left: 0;
 }
 
-.header__container {
-  padding: 0 24px;
+.header__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 0 16px 0 16px;
 }
 
 .header__description {
@@ -978,7 +975,7 @@ RESPONSIVENESS
 */
 
 @media (max-width: 1280px) {
-  .header__container {
+  .header__wrapper {
     padding: 0 24px;
   }
 
