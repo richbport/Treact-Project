@@ -222,7 +222,7 @@ header {
   opacity: 0.06;
   width: 256px;
   height: 256px;
-  transform: matrix(1.1, 0, 0, 1, -163, .8);
+  transform: matrix(1.1, 0, 0, 1, -163, 0.8);
 }
 
 .header__wrapper {
@@ -482,6 +482,7 @@ QUALITY WORK
 
 .steps__img--wrapper {
   position: relative;
+  display: flex;
   width: 50%;
 }
 
@@ -500,7 +501,7 @@ QUALITY WORK
   transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
   width: 80px;
   height: 80px;
-  fill: rgba(100,21,255);
+  fill: rgba(100, 21, 255);
   z-index: 1;
 }
 
@@ -636,6 +637,19 @@ PRICING
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  /* z-index: 3; */
+}
+
+.plans__blob {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+  height: 256px;
+  width: 256px;
+  opacity: 0.25;
+  z-index: 1;
 }
 
 .plan {
@@ -646,6 +660,8 @@ PRICING
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   border-radius: 10px;
+  background-color: #fff;
+  z-index: 2;
 }
 
 .plan__blue {
