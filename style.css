@@ -908,11 +908,16 @@ CTA
 #start {
   padding: 0 32px;
 }
+
+#start, .row {
+  position: relative;
+  overflow: hidden;
+}
+
 .start__container {
   background-color: rgb(100, 21, 255);
   border-radius: 8px;
   padding: 96px 0;
-  margin: 64px 0;
 }
 
 .start__row {
@@ -951,6 +956,7 @@ CTA
   color: #fff;
   width: 50%;
   font-size: 32px;
+  z-index: 2;
 }
 
 .start__btn--wrapper {
