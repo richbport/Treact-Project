@@ -1114,7 +1114,7 @@ RESPONSIVENESS
 
 @media (max-width: 1280px) {
   .header__wrapper {
-    padding: 0 24px;
+    align-items: center;
   }
 
   .header__description--title {
@@ -1123,6 +1123,10 @@ RESPONSIVENESS
 
   .header__description--para {
     font-size: 16px;
+  }
+
+  .header__img {
+    max-width: 512px;
   }
 }
 
