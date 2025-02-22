@@ -991,14 +991,18 @@ FOOTER
 footer {
   background-color: rgb(100, 21, 255);
   padding: 72px 20px 36px 20px;
+  position: relative;
+  overflow: hidden;
 }
+
+
 
 .footer__links {
   display: flex;
   justify-content: space-between;
 }
 
-.footer__column {
+.footer__columns {
   display: flex;
   flex-direction: column;
   width: 20%;
@@ -1006,7 +1010,7 @@ footer {
   padding: 12px;
 }
 
-.footer__column--title {
+.footer__columns--title {
   color: #fff;
   font-size: 16px;
   font-weight: 700px;
