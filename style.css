@@ -318,7 +318,6 @@ input:focus {
 
 .header__img--wrapper {
   width: 60%;
-  
 }
 
 .header__img {
@@ -1114,7 +1113,7 @@ RESPONSIVENESS
 
 @media (max-width: 1280px) {
   .header__wrapper {
-    align-items: flex-end;
+    justify-content: space-between;
   }
 
   .header__description--title {
@@ -1125,8 +1124,12 @@ RESPONSIVENESS
     font-size: 16px;
   }
 
+  .header__img--wrapper {
+    width: 50%;
+  }
+
   .header__img {
-    max-width: 512px;
+    max-width: 800px;
   }
 }
 
