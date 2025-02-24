@@ -229,11 +229,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px 0 16px;
 }
 
 .header__description {
-  width: 43%;
+  width: 40%;
 }
 
 .header__description--title {
@@ -318,7 +317,7 @@ input:focus {
 }
 
 .header__img--wrapper {
-  width: 52%;
+  width: 60%;
 }
 
 .header__img {
@@ -1114,7 +1113,7 @@ RESPONSIVENESS
 
 @media (max-width: 1280px) {
   .header__wrapper {
-    align-items: center;
+    align-items: flex-end;
   }
 
   .header__description--title {
