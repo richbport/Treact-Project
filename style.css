@@ -1162,9 +1162,16 @@ RESPONSIVENESS
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.header__description {
   width: 100%;
-  max-width: 1024px;
+  max-width: 512px;
   margin: 0 auto;
+}
+
+.header__description--title {
+  font-size: 32px;
 }
 
 .quality__heading {
