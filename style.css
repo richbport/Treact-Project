@@ -213,6 +213,7 @@ a {
 
 header {
   position: relative;
+  padding: 0 24px;
 }
 
 .header__blob {
@@ -318,6 +319,7 @@ input:focus {
 
 .header__img--wrapper {
   width: 60%;
+  display: flex;
 }
 
 .header__img {
@@ -908,7 +910,8 @@ CTA
   padding: 0 32px;
 }
 
-#start, .row {
+#start,
+.row {
   position: relative;
   overflow: hidden;
 }
@@ -1126,10 +1129,11 @@ RESPONSIVENESS
 
   .header__img--wrapper {
     width: 50%;
+    justify-content: flex-end;
   }
 
   .header__img {
-    max-width: 800px;
+    max-width: 512px;
   }
 }
 
