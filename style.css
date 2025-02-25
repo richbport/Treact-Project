@@ -135,8 +135,7 @@ a {
   height: 120px;
   display: flex;
   justify-content: center;
-  padding: 0 24px;
-  margin-bottom: 64px;
+  padding-top: 24px;
 }
 
 .nav__content {
@@ -334,6 +333,12 @@ FEATURES
 
 #features {
   position: relative;
+}
+
+.row__narrow {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .features__blob {
