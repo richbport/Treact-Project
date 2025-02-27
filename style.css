@@ -355,7 +355,8 @@ FEATURES
   position: relative;
 }
 
-#features, .row__narrow {
+#features,
+.row__narrow {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -412,13 +413,17 @@ FEATURES
 .services {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  margin-top: 40px;
 }
 
 .service {
+  width: calc(100% / 3);
+}
+
+.service__row {
   display: flex;
-  width: 30%;
-  margin: 0 12px;
+  align-items: flex-start;
+  padding: 32px 24px;
 }
 
 .service__img--wrapper {
@@ -1187,7 +1192,7 @@ RESPONSIVENESS
     flex-direction: column;
     align-items: center;
   }
-  
+
   .header__description {
     width: 100%;
     max-width: 512px;
@@ -1211,5 +1216,9 @@ RESPONSIVENESS
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+  }
+
+  .service {
+    width: calc(50%);
   }
 }
