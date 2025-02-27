@@ -428,7 +428,7 @@ FEATURES
 
 .service__img--wrapper {
   display: flex;
-  border: 1px solid #7c8ba1;
+  border: 1px solid #e4e7ec;
   padding: 20px;
   border-radius: 99px;
   max-height: 65px;
@@ -553,6 +553,8 @@ QUALITY WORK
 
 .step {
   display: flex;
+  align-items: flex-start;
+  margin-top: 32px;
 }
 
 .step__num {
@@ -1215,10 +1217,30 @@ RESPONSIVENESS
     max-width: 768px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
   }
 
   .service {
     width: calc(50%);
   }
+
+  .steps__description {
+    padding: 32px 0;
+  }
+
+  .section__heading {
+    font-size: 36px;
+    margin: 16px 0 32px;
+  }
+
+  .step {
+    margin-top: 2px;
+  }
+
+  .step__text--title {
+    font-size: 20px;
+}
+
+.step__text--para {
+  font-size: 14px;
+}
 }
