@@ -470,7 +470,7 @@ QUALITY WORK
 }
 
 .quality__description {
-  width: 40%;
+  width: 50%;
 }
 
 .quality__btn {
@@ -483,7 +483,7 @@ QUALITY WORK
   border: 1px solid rgb(229, 231, 235);
   position: relative;
   margin: 0 56px;
-  width: 60%;
+  width: 50%;
   display: flex;
 }
 
@@ -642,7 +642,7 @@ VALUES
 
 .value__btn {
   font-size: 16px;
-  padding: 8px 36px 12px 36px;
+  padding: 10px 36px;
   margin-top: 48px;
 }
 
@@ -1214,6 +1214,12 @@ RESPONSIVENESS
     font-size: 40px;
   }
 
+  .steps__heading {
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin: 16px 0 32px 0;
+  }
+
   .services {
     max-width: 768px;
     display: flex;
@@ -1228,13 +1234,8 @@ RESPONSIVENESS
     padding: 32px 0;
   }
 
-  .section__heading {
-    font-size: 36px;
-    margin: 16px 0 32px;
-  }
-
   .section__para {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .step {
