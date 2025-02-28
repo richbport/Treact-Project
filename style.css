@@ -273,7 +273,7 @@ input:focus {
   background-color: #6415ff;
   color: #fff;
   border-radius: 99px;
-  padding: 14px 28px;
+  padding: 8px 32px;
   font-weight: 700;
   border-color: transparent;
 }
@@ -474,8 +474,8 @@ QUALITY WORK
 }
 
 .quality__btn {
-  margin-top: 32px;
-  padding: 12px 32px;
+  margin-top: 40px;
+  padding: 10px 36px;
 }
 
 .quality__img--wrapper {
@@ -604,7 +604,7 @@ VALUES
 .values {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
+  margin-top: 32px;
   gap: 24px;
 }
 
@@ -641,6 +641,8 @@ VALUES
 }
 
 .value__btn {
+  font-size: 16px;
+  padding: 8px 36px 12px 36px;
   margin-top: 48px;
 }
 
@@ -1232,7 +1234,7 @@ RESPONSIVENESS
   }
 
   .section__para {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .step {
@@ -1249,5 +1251,12 @@ RESPONSIVENESS
 
 .values {
   flex-direction: column;
+  max-width: 320px;
+  margin-top: 40px;
+  gap: 48px;
+}
+
+.value__title {
+  font-size: 22px;
 }
 }
