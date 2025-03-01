@@ -545,6 +545,7 @@ QUALITY WORK
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-top: 32px;
 }
 
 .step {
@@ -1221,14 +1222,6 @@ RESPONSIVENESS
     /* font-weight: 900; */
     letter-spacing: 2px;
   }
-  
-  
-
-  /* .steps__heading {
-    font-size: 36px;
-    letter-spacing: 1px;
-    margin: 16px 0 32px 0; 
-  }
 
   .services {
     max-width: 768px;
@@ -1240,15 +1233,15 @@ RESPONSIVENESS
     width: calc(50%);
   }
 
-  .steps__description {
-    padding: 32px 0;
-  }
-
-  .section__para {
+ .section__para {
     font-size: 16px;
     line-height: 1.75;
-    /* letter-spacing: 1.1; */
-  }
+    letter-spacing: 1.1;
+ }
+
+ .steps {
+  gap: 36px;
+ }
 
   .step {
     margin-top: 2px;
@@ -1259,7 +1252,8 @@ RESPONSIVENESS
   }
 
   .step__text--para {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 1.5;
   }
 
   .values {
@@ -1272,5 +1266,4 @@ RESPONSIVENESS
   .value__title {
     font-size: 22px;
   }
-  
 }
