@@ -446,7 +446,8 @@ FEATURES
 .service__description--para {
   font-size: 16px;
   color: #7c8ba1;
-  line-height: 2;
+  line-height: 1.75;
+  letter-spacing: normal;
   width: 100%;
   max-width: 240px;
   font-weight: 500;
@@ -1206,27 +1207,27 @@ RESPONSIVENESS
     font-size: 32px;
   }
 
-  
-  #features, .section__heading,
-  #pricing, .section__heading {
-    font-size: 48px;
-    color: #243e63;
-    margin: 24px 0;
-    font-weight: 900;
-    letter-spacing: 2px;
-  }
-  
-  #quality, .section__heading,
-  #steps, .section__heading {
+  .section__heading {
     font-size: 36px;
     margin: 16px 0;
     letter-spacing: 1.5px;
   }
 
+  #features .section__heading,
+  #pricing .section__heading {
+    font-size: 48px;
+    /* color: #243e63; */
+    margin: 24px 0;
+    /* font-weight: 900; */
+    letter-spacing: 2px;
+  }
+  
+  
+
   /* .steps__heading {
     font-size: 36px;
     letter-spacing: 1px;
-    margin: 16px 0 32px 0; */
+    margin: 16px 0 32px 0; 
   }
 
   .services {
@@ -1246,6 +1247,7 @@ RESPONSIVENESS
   .section__para {
     font-size: 16px;
     line-height: 1.75;
+    /* letter-spacing: 1.1; */
   }
 
   .step {
@@ -1270,4 +1272,5 @@ RESPONSIVENESS
   .value__title {
     font-size: 22px;
   }
+  
 }
