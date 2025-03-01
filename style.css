@@ -444,7 +444,7 @@ FEATURES
 }
 
 .service__description--para {
-  font-size: 18px;
+  font-size: 16px;
   color: #7c8ba1;
   line-height: 2;
   width: 100%;
@@ -1206,17 +1206,27 @@ RESPONSIVENESS
     font-size: 32px;
   }
 
-  /* #quality,
-  .section__heading {
+  
+  #features, .section__heading,
+  #pricing, .section__heading {
+    font-size: 48px;
+    color: #243e63;
+    margin: 24px 0;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  
+  #quality, .section__heading,
+  #steps, .section__heading {
     font-size: 36px;
     margin: 16px 0;
-    letter-spacing: 1.5px; */
+    letter-spacing: 1.5px;
   }
 
-  .steps__heading {
+  /* .steps__heading {
     font-size: 36px;
     letter-spacing: 1px;
-    margin: 16px 0 32px 0;
+    margin: 16px 0 32px 0; */
   }
 
   .services {
