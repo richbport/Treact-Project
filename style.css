@@ -840,9 +840,11 @@ TESTIMONIALS
   padding: 0 32px;
 }
 
-.testimonials__img,
+.testimonials__img {
+  width: 42%;
+}
 .testimonials__description {
-  width: 50%;
+  width: 58%;
 }
 
 .testimonials__description {
