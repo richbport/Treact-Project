@@ -395,7 +395,7 @@ FEATURES
 .section__heading {
   font-size: 48px;
   color: #243e63;
-  margin: 24px 0;
+  margin: 16px 0;
   font-weight: 900;
   letter-spacing: 2px;
 }
@@ -412,7 +412,7 @@ FEATURES
 .services {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 48px;
 }
 
 .service {
@@ -446,10 +446,10 @@ FEATURES
 .service__description--para {
   font-size: 16px;
   color: #7c8ba1;
-  line-height: 1.75;
+  line-height: 2;
   letter-spacing: normal;
   width: 100%;
-  max-width: 240px;
+  max-width: 180px;
   font-weight: 500;
 }
 
@@ -541,11 +541,11 @@ QUALITY WORK
   width: 45%;
 }
 
-.steps {
+.steps__services {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  margin-top: 32px;
+  gap: 12px;
+  margin-top: 8px;
 }
 
 .step {
@@ -568,14 +568,14 @@ QUALITY WORK
 }
 
 .step__text--title {
-  font-size: 24px;
+  font-size: 22px;
   color: #243e63;
   font-weight: 600;
 }
 
 .step__text--para {
-  font-size: 18px;
-  line-height: 2;
+  font-size: 16px;
+  line-height: 1.75;
   color: #718096;
   font-weight: 600;
   width: 100%;
@@ -1236,24 +1236,14 @@ RESPONSIVENESS
  .section__para {
     font-size: 16px;
     line-height: 1.75;
-    letter-spacing: 1.1;
  }
 
  .steps {
-  gap: 36px;
+  gap: 48px;
  }
 
   .step {
     margin-top: 2px;
-  }
-
-  .step__text--title {
-    font-size: 20px;
-  }
-
-  .step__text--para {
-    font-size: 16px;
-    line-height: 1.5;
   }
 
   .values {
