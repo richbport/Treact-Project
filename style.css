@@ -675,8 +675,10 @@ PRICING
   justify-content: space-between;
   align-items: center;
   position: relative;
-  /* z-index: 3; */
+  z-index: 3;
 }
+
+/* Can't seem to get plans__blob to appear from behind personal plan. I know it's there, but won't come out. */
 
 .plans__blob {
   position: absolute;
@@ -1235,14 +1237,14 @@ RESPONSIVENESS
     width: calc(50%);
   }
 
- .section__para {
+  .section__para {
     font-size: 16px;
     line-height: 1.75;
- }
+  }
 
- .steps {
-  gap: 48px;
- }
+  .steps {
+    gap: 48px;
+  }
 
   .step {
     margin-top: 2px;
