@@ -766,9 +766,9 @@ PRICING
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
-  border-top: 1px solid #a0aec0;
-  border-bottom: 1px solid #a0aec0;
+  gap: 32px;
+  border-top: 1px solid #d2dae4;
+  border-bottom: 1px solid #d2dae4;
 }
 
 .plan__feature {
