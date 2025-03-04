@@ -696,8 +696,8 @@ PRICING
   width: 31%;
   max-width: 384px;
   margin-top: 64px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   border-radius: 10px;
   background-color: #fff;
   z-index: 2;
@@ -959,7 +959,7 @@ CTA
 .start__container {
   background-color: rgb(100, 21, 255);
   border-radius: 8px;
-  padding: 96px 0;
+  padding: 104px 0;
 }
 
 .start__row {
@@ -967,9 +967,9 @@ CTA
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  padding: 0 32px;
+  padding: 0 16px;
 }
 
 .start__blob--1 {
@@ -1009,7 +1009,7 @@ CTA
 .start__btn--red {
   background-color: #f56565;
   font-size: 16px;
-  padding: 20px 40px;
+  padding: 20px 32px;
 }
 
 .start__btn--red:hover {
@@ -1020,7 +1020,7 @@ CTA
 .start__btn--purple {
   border: 1px solid #fff;
   font-size: 16px;
-  padding: 20px 40px;
+  padding: 20px 32px;
 }
 
 .start__btn--purple:hover {
