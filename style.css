@@ -767,8 +767,8 @@ PRICING
   flex-direction: column;
   align-items: center;
   gap: 32px;
-  border-top: 1px solid #d2dae4;
-  border-bottom: 1px solid #d2dae4;
+  border-top: 1px solid #cad2db;
+  border-bottom: 1px solid #cad2db;
 }
 
 .plan__feature {
@@ -793,7 +793,7 @@ PRICING
 }
 
 .plan__btn {
-  padding: 16px 64px;
+  padding: 16px 40px;
   border-radius: 99px;
   border: none;
   font-size: 16px;
