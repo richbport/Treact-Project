@@ -735,7 +735,7 @@ PRICING
 }
 
 .plan__header {
-  padding: 32px;
+  padding: 40px 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
