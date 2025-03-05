@@ -1260,4 +1260,12 @@ RESPONSIVENESS
   .value__title {
     font-size: 22px;
   }
+
+  .plans {
+    flex-direction: column;
+  }
+
+  .plan {
+    max-width: 40%;
+  }
 }
