@@ -673,7 +673,6 @@ PRICING
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   position: relative;
   z-index: 3;
 }
@@ -1263,9 +1262,10 @@ RESPONSIVENESS
 
   .plans {
     flex-direction: column;
+    align-items: center;
   }
 
   .plan {
-    max-width: 40%;
+    margin-right 0px;
   }
 }
