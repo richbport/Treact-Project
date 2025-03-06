@@ -671,7 +671,7 @@ PRICING
 
 .plans {
   display: flex;
-  flex-wrap: wrap;
+  width: 100%;
   justify-content: space-between;
   position: relative;
   z-index: 3;
