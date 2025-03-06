@@ -963,7 +963,7 @@ CTA
 .start__container {
   background-color: rgb(100, 21, 255);
   border-radius: 8px;
-  padding: 104px 0;
+  padding: 96px 0;
 }
 
 .start__row {
@@ -1002,6 +1002,7 @@ CTA
   color: #fff;
   width: 50%;
   font-size: 32px;
+  line-height: 1.5;
   z-index: 2;
 }
 
@@ -1013,7 +1014,7 @@ CTA
 .start__btn--red {
   background-color: #f56565;
   font-size: 16px;
-  padding: 24px 40px;
+  padding: 20px 36px;
 }
 
 .start__btn--red:hover {
@@ -1024,7 +1025,7 @@ CTA
 .start__btn--purple {
   border: 1px solid #fff;
   font-size: 16px;
-  padding: 24px 40px;
+  padding: 20px 36px;
 }
 
 .start__btn--purple:hover {
@@ -1280,6 +1281,15 @@ RESPONSIVENESS
 
   .start__row {
     flex-direction: column;
-    justify-content: space-between;
+  }
+
+  .start__title {
+    text-align: center;
+    width: 100%;
+    max-width: 512px;
+  }
+
+  .start__btn--wrapper {
+    margin-top: 32px;
   }
 }
