@@ -691,13 +691,15 @@ PRICING
 }
 
 .plan {
-  position: relative;
-  width: 31%;
+  width: 100%;
   max-width: 384px;
-  margin-top: 64px;
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  margin: 64px 32px 0 0;
+  padding-top: 8px;
   border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+  rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  position: relative;
   background-color: #fff;
   z-index: 2;
 }
