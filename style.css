@@ -132,7 +132,7 @@ a {
 }
 
 .nav__container {
-  height: 120px;
+  height: 96px;
   display: flex;
   justify-content: center;
   padding-top: 24px;
@@ -539,13 +539,17 @@ QUALITY WORK
 
 .steps__description {
   width: 45%;
+  padding: 32px 0;
 }
 
 .steps__services {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin-top: 8px;
+}
+
+.section__heading--steps {
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 
 .step {
@@ -568,7 +572,7 @@ QUALITY WORK
 }
 
 .step__text--title {
-  font-size: 22px;
+  font-size: 21px;
   color: #243e63;
   font-weight: 600;
 }
@@ -579,7 +583,7 @@ QUALITY WORK
   color: #718096;
   font-weight: 600;
   width: 100%;
-  max-width: 400px;
+  max-width: 360px;
 }
 
 /* 
@@ -597,6 +601,7 @@ VALUES
 
 .values__description {
   width: 45%;
+  padding: 32px 0;
 }
 
 .values {
@@ -1226,9 +1231,7 @@ RESPONSIVENESS
   #features .section__heading,
   #pricing .section__heading {
     font-size: 48px;
-    /* color: #243e63; */
     margin: 24px 0;
-    /* font-weight: 900; */
     letter-spacing: 2px;
   }
 
@@ -1240,6 +1243,10 @@ RESPONSIVENESS
 
   .service {
     width: calc(50%);
+  }
+
+  .service__description--para {
+    max-width: none;
   }
 
   .section__para {
@@ -1277,6 +1284,7 @@ RESPONSIVENESS
 
   .plan__btn {
     max-width: 80%;
+    font-size: 14px;
   }
 
   .start__row {
