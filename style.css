@@ -439,7 +439,7 @@ FEATURES
 
 .service__description--title {
   font-size: 24px;
-  color: black;
+  color: #243e63;
   margin-bottom: 12px;
 }
 
@@ -1235,7 +1235,7 @@ RESPONSIVENESS
     letter-spacing: 2px;
     text-align: center;
     line-height: 1.5;
-    max-width: 550px;
+    max-width: 850px;
   }
 
   .section__heading--steps {
@@ -1253,7 +1253,7 @@ RESPONSIVENESS
   }
 
   .service__description--para {
-    max-width: none;
+    max-width: 240px;
   }
 
   .section__para {
@@ -1311,8 +1311,35 @@ RESPONSIVENESS
 }
 
 @media (max-width: 768px) {
+
+  .header__img--wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #features .section__heading {
+    font-size: 48px;
+    margin: 24px 0;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 650px;
+  }
+
   .services {
     flex-direction: column;
     align-items: center;
+  }
+
+  .service__description--para {
+    max-width: none;
+  }
+
+  .quality__wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .quality__img--wrapper {
+    width: 70%;
   }
 }
