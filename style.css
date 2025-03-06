@@ -1233,6 +1233,9 @@ RESPONSIVENESS
     font-size: 48px;
     margin: 24px 0;
     letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 550px;
   }
 
   .section__heading--steps {
@@ -1304,5 +1307,12 @@ RESPONSIVENESS
 
   footer {
     padding: 72px 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
   }
 }
