@@ -1235,6 +1235,10 @@ RESPONSIVENESS
     letter-spacing: 2px;
   }
 
+  .section__heading--steps {
+    margin-bottom: 0;
+  }
+
   .services {
     max-width: 768px;
     display: flex;
@@ -1254,12 +1258,8 @@ RESPONSIVENESS
     line-height: 1.75;
   }
 
-  .steps {
-    gap: 48px;
-  }
-
-  .step {
-    margin-top: 2px;
+  .steps__services {
+    gap: 4px;
   }
 
   .values {
@@ -1285,6 +1285,7 @@ RESPONSIVENESS
   .plan__btn {
     max-width: 80%;
     font-size: 14px;
+    padding: 18px 40px;
   }
 
   .start__row {
