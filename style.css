@@ -1290,6 +1290,10 @@ RESPONSIVENESS
   }
 
   .start__btn--wrapper {
-    margin-top: 32px;
+    margin-top: 24px;
+  }
+
+  footer {
+    padding: 72px 32px;
   }
 }
