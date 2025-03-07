@@ -1021,7 +1021,7 @@ CTA
 .start__btn--red {
   background-color: #f56565;
   font-size: 16px;
-  padding: 20px 36px;
+  padding: 22px 36px;
 }
 
 .start__btn--red:hover {
@@ -1030,9 +1030,9 @@ CTA
 }
 
 .start__btn--purple {
-  border: 1px solid #fff;
+  border: 1px solid rgb(160, 174, 192);
   font-size: 16px;
-  padding: 20px 36px;
+  padding: 22px 36px;
 }
 
 .start__btn--purple:hover {
