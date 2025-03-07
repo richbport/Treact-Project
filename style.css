@@ -465,7 +465,6 @@ QUALITY WORK
 .quality__wrapper {
   display: flex;
   align-items: center;
-  padding: 0 24px;
 }
 
 .quality__description {
@@ -1342,5 +1341,20 @@ RESPONSIVENESS
 
   .quality__img--wrapper {
     width: 70%;
+  }
+
+  .quality__description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 64px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section__para {
+    font-size: 14px;
   }
 }
