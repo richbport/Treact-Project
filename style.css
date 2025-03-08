@@ -668,6 +668,10 @@ PRICING
   padding: 0 24px;
 }
 
+/* #pricing, .row {
+  overflow: visible;
+} */
+
 .pricing__description {
   display: flex;
   flex-direction: column;
@@ -708,6 +712,10 @@ PRICING
   position: relative;
   background-color: #fff;
   z-index: 2;
+}
+
+.plan__green {
+  overflow: visible;
 }
 
 .plan__blue {
@@ -963,7 +971,7 @@ CTA
 #start,
 .row {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .start__container {
