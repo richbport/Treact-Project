@@ -971,7 +971,7 @@ CTA
 #start,
 .row {
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .start__container {
