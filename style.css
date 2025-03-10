@@ -714,10 +714,6 @@ PRICING
   z-index: 2;
 }
 
-.plan__green {
-  overflow: visible;
-}
-
 .plan__blue {
   background: linear-gradient(
     135deg,
