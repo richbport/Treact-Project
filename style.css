@@ -161,10 +161,21 @@ a {
   height: 40px;
 }
 
+.logo__footer--img {
+  width: 32px;
+  height: 32px;
+}
+
 .logo__text {
   font-size: 24px;
   font-weight: 900;
   color: #243e63;
+}
+
+.footer__logo--text {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 1.1px;
 }
 
 .nav__links {
@@ -1147,8 +1158,8 @@ footer {
 }
 
 .footer__social--link {
-  font-size: 18px;
-  padding: 10px 12px;
+  font-size: 16px;
+  padding: 8px 10px;
   background-color: #fff;
   border-radius: 50%;
 }
