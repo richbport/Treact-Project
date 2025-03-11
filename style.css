@@ -1211,6 +1211,11 @@ RESPONSIVENESS
     align-items: center;
   }
 
+  .header__img--wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+
   .header__description {
     width: 100%;
     max-width: 512px;
