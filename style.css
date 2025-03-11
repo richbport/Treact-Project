@@ -668,8 +668,7 @@ PRICING
   padding: 0 24px;
 }
 
-#pricing
-.row {
+#pricing .row {
   position: relative;
   overflow: visible;
 }
@@ -688,8 +687,6 @@ PRICING
   position: relative;
   z-index: 3;
 }
-
-/* Can't seem to get plans__blob to appear from behind personal plan. I know it's there, but won't come out. */
 
 .plans__blob {
   z-index: -10;
@@ -966,8 +963,7 @@ CTA
   padding: 0 32px;
 }
 
-#start
-.row {
+#start .row {
   position: relative;
   overflow: hidden;
 }
