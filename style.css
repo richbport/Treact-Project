@@ -582,7 +582,7 @@ QUALITY WORK
   font-size: 16px;
   line-height: 1.75;
   color: #718096;
-  font-weight: 600;
+  font-weight: 400;
   width: 100%;
   max-width: 360px;
 }
@@ -646,7 +646,7 @@ VALUES
 
 .value__btn {
   font-size: 16px;
-  padding: 10px 36px;
+  padding: 8px 32px;
   margin-top: 48px;
 }
 
@@ -762,6 +762,8 @@ PRICING
   color: #1a202c;
   font-size: 48px;
   font-weight: 700;
+  letter-spacing: 1.8px;
+  line-height: 1.6;
 }
 
 .duration {
@@ -859,11 +861,8 @@ TESTIMONIALS
   width: 42%;
 }
 .testimonials__description {
-  width: 58%;
-}
-
-.testimonials__description {
-  padding-left: 64px;
+  width: 62%;
+  padding-left: 48px;
 }
 
 .testimonial {
@@ -1023,6 +1022,7 @@ CTA
   background-color: #f56565;
   font-size: 16px;
   padding: 22px 40px;
+  z-index: 1;
 }
 
 .start__btn--red:hover {
@@ -1281,7 +1281,7 @@ RESPONSIVENESS
   }
 
   .value__title {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .plans {
