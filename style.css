@@ -1396,6 +1396,7 @@ RESPONSIVENESS
   .step {
     flex-direction: column;
     align-items: center;
+    margin-top: 24px;
   }
 
   .step__text--wrapper {
