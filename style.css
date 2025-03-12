@@ -865,15 +865,22 @@ TESTIMONIALS
 
 #testimonials .row {
   display: flex;
-  padding: 0 32px;
+  padding: 0 16px;
+}
+
+.testimonials__img--wrapper {
+  width: 42%;
+  display: flex;
+  align-items: center;
 }
 
 .testimonials__img {
-  width: 42%;
+  width: 100%;
 }
+
 .testimonials__description {
   width: 62%;
-  padding-left: 48px;
+  padding-left: 64px;
 }
 
 .testimonial {
@@ -1361,8 +1368,11 @@ RESPONSIVENESS
     flex-direction: column-reverse;
   }
 
-  .quality__img--wrapper {
-    width: 70%;
+  .quality__img--wrapper,
+  .steps__img--wrapper,
+  .values__img--wrapper {
+    width: 100%;
+    max-width: 448px;
   }
 
   .quality__description {
@@ -1380,11 +1390,6 @@ RESPONSIVENESS
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .steps__img--wrapper {
-    align-items: center;
-    width: 75%;
   }
 
   .steps__description {
@@ -1420,10 +1425,6 @@ RESPONSIVENESS
 
   .values__wrapper {
     flex-direction: column-reverse;
-  }
-
-  .values__img--wrapper {
-    width: 75%;
   }
 
 }
