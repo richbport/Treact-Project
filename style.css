@@ -484,7 +484,7 @@ QUALITY WORK
 
 .quality__btn {
   margin-top: 40px;
-  padding: 10px 36px;
+  padding: 10px 32px;
 }
 
 .quality__img--wrapper {
@@ -657,7 +657,7 @@ VALUES
 
 .value__btn {
   font-size: 16px;
-  padding: 8px 32px;
+  padding: 9px 30px;
   margin-top: 48px;
 }
 
@@ -760,7 +760,7 @@ PRICING
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 8px;
 }
 
 .name {
@@ -789,7 +789,7 @@ PRICING
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 24px;
   border-top: 1px solid #cad2db;
   border-bottom: 1px solid #cad2db;
 }
@@ -1353,6 +1353,7 @@ RESPONSIVENESS
   
   .section__para {
     font-size: 14px;
+    max-width: 576px;
   }
 
   .services {
@@ -1442,10 +1443,15 @@ RESPONSIVENESS
     margin-top: 48px;
   }
 
+  .value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
   #testimonials .row {
     flex-direction: column;
     align-items: center;
   }
-
 
 }
