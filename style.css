@@ -1428,9 +1428,24 @@ RESPONSIVENESS
     flex-direction: column-reverse;
   }
 
+  .values__description,
+  .testimonials__description {
+    margin-top: 64px;
+    padding: 0;
+    width: 100%;
+    max-width: 448px;
+    text-align: center;
+  }
+
+  .values {
+    margin: 0 auto;
+    margin-top: 48px;
+  }
+
   #testimonials .row {
     flex-direction: column;
     align-items: center;
   }
+
 
 }
