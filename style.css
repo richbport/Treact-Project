@@ -1334,7 +1334,7 @@ RESPONSIVENESS
     width: 100%;
     justify-content: center;
   }
-
+  
   #features .section__heading {
     font-size: 48px;
     margin: 24px 0;
@@ -1342,6 +1342,10 @@ RESPONSIVENESS
     text-align: center;
     line-height: 1.5;
     max-width: 650px;
+  }
+  
+  .section__para {
+    font-size: 14px;
   }
 
   .services {
@@ -1414,7 +1418,12 @@ RESPONSIVENESS
     line-height: 2;
   }
 
-  .section__para {
-    font-size: 14px;
+  .values__wrapper {
+    flex-direction: column-reverse;
   }
+
+  .values__img--wrapper {
+    width: 75%;
+  }
+
 }
