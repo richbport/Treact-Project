@@ -1103,9 +1103,7 @@ footer {
 .footer__columns {
   display: flex;
   flex-direction: column;
-  width: 20%;
-  max-width: 120px;
-  padding: 12px;
+  flex-wrap: wrap;
 }
 
 .footer__columns--title {
@@ -1454,4 +1452,7 @@ RESPONSIVENESS
     align-items: center;
   }
 
+  .footer__columns {
+    justify-content: flex-start;
+  }
 }
