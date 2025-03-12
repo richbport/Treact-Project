@@ -1096,14 +1096,18 @@ footer {
 }
 
 .footer__links {
+  margin-top: -48px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer__columns {
+  margin-top: 48px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  z-index: 2;
 }
 
 .footer__columns--title {
