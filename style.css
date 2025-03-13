@@ -463,8 +463,7 @@ FEATURES
   color: #7c8ba1;
   line-height: 2;
   letter-spacing: normal;
-  width: 100%;
-  max-width: 180px;
+  max-width: calc(634px / 3);
   font-weight: 500;
 }
 
@@ -1275,7 +1274,7 @@ RESPONSIVENESS
   }
 
   .service__description--para {
-    max-width: none;
+    max-width: 250px;
   }
 
   .service__row {
@@ -1364,6 +1363,10 @@ RESPONSIVENESS
   .services {
     flex-direction: column;
     align-items: center;
+  }
+
+  .service__description--para {
+    max-width: none;
   }
 
   .quality__wrapper {
