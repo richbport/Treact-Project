@@ -1279,7 +1279,6 @@ RESPONSIVENESS
 
   .service__row {
     padding: 32px 8px;
-    margin: 0 16px;
   }
 
   .service {
@@ -1336,7 +1335,7 @@ RESPONSIVENESS
   }
 
   footer {
-    padding: 72px 32px;
+    padding: 80px 36px;
   }
 }
 
@@ -1478,6 +1477,23 @@ RESPONSIVENESS
 }
 
 @media (max-width: 640px) {
-  
+  .header__email {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header__email--input {
+    position: static;
+    padding: 16px 0;
+    padding-left: 32px;
+    line-height: 1.5;
+  }
+
+  .header__email--btn {
+    width: 100%;
+    padding: 16px 0;
+    margin: 16px 0;
+    margin-bottom: 0px;
+    line-height: 1.5;
   }
 }
