@@ -448,7 +448,8 @@ FEATURES
 }
 
 .service__description {
-  padding-left: 12px;
+  margin-top: 8px;
+  margin-left: 16px;
 }
 
 .service__description--title {
@@ -1271,8 +1272,10 @@ RESPONSIVENESS
 
   .services {
     max-width: 768px;
-    display: flex;
-    flex-wrap: wrap;
+  }
+
+  .service__description--para {
+    max-width: none;
   }
 
   .service__row {
@@ -1361,10 +1364,6 @@ RESPONSIVENESS
   .services {
     flex-direction: column;
     align-items: center;
-  }
-
-  .service__description--para {
-    max-width: none;
   }
 
   .quality__wrapper {
@@ -1476,8 +1475,6 @@ RESPONSIVENESS
 }
 
 @media (max-width: 640px) {
-  .header__img--wrapper {
-    width: 100%;
-    justify-content: center;
+  
   }
 }
