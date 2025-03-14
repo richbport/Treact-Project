@@ -1274,7 +1274,7 @@ RESPONSIVENESS
   }
 
   .service__description--para {
-    max-width: 250px;
+    max-width: none;
   }
 
   .service__row {
@@ -1562,13 +1562,25 @@ RESPONSIVENESS
   }
 
   .start__btn--red {
-    padding: 14px 24px;
+    padding: 16px 28px;
     font-size: 14px;
   }
 
   .start__btn--purple {
-    padding: 14px 24px;
+    padding: 16px 28px;
     font-size: 14px;
     z-index: 1;
   }
+
+  .footer__links {
+    justify-content: center;
+  }
+
+  .footer__columns {
+    width: auto;
+    padding: 0 16px;
+    text-align: center;
+    align-items: center;
+  }
+  
 }
