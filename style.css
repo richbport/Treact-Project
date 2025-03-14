@@ -525,8 +525,8 @@ QUALITY WORK
 }
 
 .steps__img--wrapper {
-  position: relative;
   display: flex;
+  position: relative;
   width: 50%;
 }
 
@@ -1491,6 +1491,10 @@ RESPONSIVENESS
     padding: 80px 0;
   }
 
+  .btn {
+    line-height: 1.5;
+  }
+
   .header__description--para {
     margin: 24px 0;
   }
@@ -1518,11 +1522,15 @@ RESPONSIVENESS
   #features .section__heading,
   #pricing .section__heading {
     font-size: 36px;
-    margin: 16px 0;
+    margin: 18px 0;
     letter-spacing: 2px;
     text-align: center;
     line-height: 1.5;
     max-width: 850px;
+  }
+
+  .section__heading {
+    font-size: 32px;
   }
 
   .service__row {
@@ -1572,12 +1580,12 @@ RESPONSIVENESS
   }
 
   .start__btn--red {
-    padding: 16px 28px;
+    padding: 12px 24px;
     font-size: 14px;
   }
 
   .start__btn--purple {
-    padding: 16px 28px;
+    padding: 12px 24px;
     font-size: 14px;
     z-index: 1;
   }
