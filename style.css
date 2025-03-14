@@ -1268,6 +1268,10 @@ RESPONSIVENESS
   .section__heading--steps {
     margin-bottom: 0;
   }
+  
+  .service {
+    width: calc(50%);
+  }
 
   .services {
     max-width: 768px;
@@ -1279,10 +1283,7 @@ RESPONSIVENESS
 
   .service__row {
     padding: 32px 8px;
-  }
-
-  .service {
-    width: calc(50%);
+    margin: 0 16px;
   }
 
   .section__para {
@@ -1362,6 +1363,11 @@ RESPONSIVENESS
   .services {
     flex-direction: column;
     align-items: center;
+  }
+
+  .service {
+    width: auto;
+    max-width: 384px;
   }
 
   .service__description--para {
@@ -1523,7 +1529,11 @@ RESPONSIVENESS
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 32px 0;
+  }
+
+  .service__description {
+    margin-left: 0px;
+    margin-top: 16px;
   }
 
   .steps__description {
