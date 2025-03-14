@@ -347,6 +347,7 @@ input:focus {
   width: 100%;
   max-width: 512px;
   opacity: 60%;
+  padding-right: 126px;
 }
 
 .header__img--wrapper {
@@ -412,6 +413,11 @@ FEATURES
   margin: 16px 0;
   font-weight: 900;
   letter-spacing: 2px;
+}
+
+#features .section__heading,
+#pricing .section__heading {
+  line-height: 1.5;
 }
 
 .section__para {
@@ -521,7 +527,6 @@ QUALITY WORK
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
 }
 
 .steps__img--wrapper {
@@ -532,7 +537,6 @@ QUALITY WORK
 
 .steps__img {
   width: 100%;
-  max-width: 500px;
   z-index: 2;
 }
 
@@ -1146,6 +1150,7 @@ footer {
 
 .footer__copyright--wrapper {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -1261,14 +1266,14 @@ RESPONSIVENESS
     margin: 24px 0;
     letter-spacing: 2px;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.25;
     max-width: 850px;
   }
 
   .section__heading--steps {
     margin-bottom: 0;
   }
-  
+
   .service {
     width: calc(50%);
   }
@@ -1539,6 +1544,12 @@ RESPONSIVENESS
     text-align: center;
   }
 
+  .steps__wrapper,
+  .values__wrapper,
+  #testimonials .row {
+    padding: 0;
+  }
+
   .service__description {
     margin-left: 0px;
     margin-top: 16px;
@@ -1600,5 +1611,4 @@ RESPONSIVENESS
     text-align: center;
     align-items: center;
   }
-  
 }
