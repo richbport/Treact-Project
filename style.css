@@ -1221,7 +1221,7 @@ RESPONSIVENESS
   }
 
   .plan__btn--wrapper {
-    
+    padding: 32px 64px;
   }
   
   .plan__btn {
@@ -1330,6 +1330,10 @@ RESPONSIVENESS
     margin-right: 0px;
   }
 
+  .plan__btn--wrapper {
+    padding: 32px 40px;
+  }
+
   .plan__btn {
     max-width: 80%;
     font-size: 14px;
@@ -1348,6 +1352,10 @@ RESPONSIVENESS
 
   .start__btn--wrapper {
     margin-top: 24px;
+  }
+
+  #start .btn {
+    padding: 18px 32px;
   }
 
   footer {
