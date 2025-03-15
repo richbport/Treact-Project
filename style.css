@@ -340,14 +340,13 @@ input:focus {
   font-size: 12px;
   font-weight: 700;
   color: #a0aec0;
-  margin: 48px 0 16px 0;
+  margin: 80px 0 16px 0;
 }
 
 .header__description--img {
   width: 100%;
-  max-width: 512px;
   opacity: 60%;
-  padding-right: 126px;
+  padding-right: 96px;
 }
 
 .header__img--wrapper {
@@ -826,7 +825,7 @@ PRICING
   border: none;
   font-size: 16px;
   width: 100%;
-  max-width: 168px;
+  max-width: 192px;
   font-weight: 700;
   transition: all 300ms;
 }
@@ -1209,6 +1208,9 @@ RESPONSIVENESS
     font-size: 16px;
   }
 
+  .header__description--img {
+  }
+
   .header__img--wrapper {
     width: 50%;
     justify-content: flex-end;
@@ -1216,6 +1218,14 @@ RESPONSIVENESS
 
   .header__img {
     max-width: 512px;
+  }
+
+  .plan__btn--wrapper {
+    
+  }
+  
+  .plan__btn {
+    max-width: none;
   }
 }
 
