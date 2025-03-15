@@ -340,7 +340,7 @@ input:focus {
   font-size: 12px;
   font-weight: 700;
   color: #a0aec0;
-  margin: 80px 0 16px 0;
+  margin: 56px 0 16px 0;
 }
 
 .header__description--img {
@@ -1170,8 +1170,8 @@ footer {
 }
 
 .footer__social--link {
-  font-size: 16px;
-  padding: 8px 11px;
+  font-size: 14px;
+  padding: 8px 9px;
   background-color: #fff;
   border-radius: 50%;
 }
@@ -1185,7 +1185,7 @@ footer {
 }
 
 .youtube {
-  padding: 10px 10px;
+  padding: 8px;
   color: red;
 }
 
@@ -1209,6 +1209,7 @@ RESPONSIVENESS
   }
 
   .header__description--img {
+    padding: 0;
   }
 
   .header__img--wrapper {
@@ -1221,7 +1222,7 @@ RESPONSIVENESS
   }
 
   .plan__btn--wrapper {
-    padding: 32px 64px;
+    padding: 32px 60px;
   }
   
   .plan__btn {
@@ -1608,14 +1609,9 @@ RESPONSIVENESS
     gap: 16px;
   }
 
-  .start__btn--red {
-    padding: 12px 24px;
+  #start .btn {
     font-size: 14px;
-  }
-
-  .start__btn--purple {
     padding: 12px 24px;
-    font-size: 14px;
     z-index: 1;
   }
 
