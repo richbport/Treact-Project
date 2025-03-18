@@ -48,9 +48,9 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  height: 378px;
+  height: 398px;
   margin: 24px 16px;
-  padding: 32px;
+  padding: 36px;
   z-index: 2;
   opacity: 0;
   visibility: hidden;
@@ -207,7 +207,7 @@ a {
   background-color: #6415ff;
   color: #fff;
   border-radius: 99px;
-  padding: 12px 32px;
+  padding: 12px 32px 14px 32px;
 }
 
 .nav__link--primary:hover {
