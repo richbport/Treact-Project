@@ -51,9 +51,6 @@ a {
   height: 378px;
   margin: 24px 16px;
   padding: 32px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   z-index: 2;
   opacity: 0;
   visibility: hidden;
@@ -97,11 +94,9 @@ a {
 }
 
 .menu__link {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
   color: #1a202c;
-  
-  border-bottom: 2px solid transparent;
 }
 
 .menu__link:hover {
@@ -117,6 +112,7 @@ a {
   line-height: 1.5;
   margin: 8px 0;
   padding-bottom: 4px;
+  border-bottom: 4px solid transparent;
 }
 
 .menu__list--primary {
